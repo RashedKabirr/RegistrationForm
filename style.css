@@ -1,0 +1,85 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+body{background-image: url(./pexels-francesco-ungaro-2325446.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    font-family: 'Roboto Condensed', sans-serif;
+    height: 100vh;
+    
+    
+}
+
+div.bk{background-image: url(./pexels-francesco-ungaro-2325446.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;}
+
+.bk{opacity: 0.5;}
+
+input:focus{outline: none;}
+
+form{display: inline-block;}
+.container{display: flex;
+flex-direction: column;
+width: 400px;
+height: 639px;
+border: 1px solid black;
+margin-left: 10px;
+background-color: #f5e9f4;
+justify-content: center;
+align-items: center;
+margin-left: auto;
+margin-right: auto;
+margin-top: 100px;
+border: 1px solid #f5e9f4}
+
+.bl{display: block;}
+
+.head{margin-top: -85px;
+padding-bottom: -50px;
+font-family: 'Roboto Condensed', sans-serif;
+padding-top: -40px;
+margin-bottom: 40px;
+font-weight: 400;}
+
+.form{padding-top: 5px;
+margin-bottom: -70px;}
+
+.inp{width: 340px;
+border: 1px solid white;
+padding: 7px;
+margin-top: 8px;
+margin-bottom: 6px;}
+
+.inpo{width: 100px;
+border: 1px solid white;
+padding: 4px;
+margin-top: 7px;
+margin-bottom: 7px;}
+
+.sel{border: 1px solid white;
+padding: 4px;
+margin-top: 7px;
+margin-bottom: 7px;}
+
+.tex{border: 1px solid white;
+width: 340px;
+margin-top: 7px;
+margin-bottom: 7px;
+resize: none;}
+
+.tex:focus{outline: none;}
+
+.but{width: 340px;
+border: 1px solid white;
+padding: 9px;
+margin-top: 11px;
+border-radius: 1px;
+font-size: medium;}
+
+.but:hover{background-color: aqua;
+cursor: pointer;}
+
+
